@@ -1,6 +1,6 @@
 import {Entity} from "typeorm";
 
-@Entity()
-class Users {}
+@Entity("users")
+class User {}
 
-export { Users };
+export { User };
